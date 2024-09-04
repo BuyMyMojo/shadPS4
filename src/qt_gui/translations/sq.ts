@@ -1,12 +1,12 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="zh_CN">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE TS><TS version="2.1" language="sq">
     <!-- SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
-             SPDX-License-Identifier: GPL-2.0-or-later -->
+         SPDX-License-Identifier: GPL-2.0-or-later -->
     <context>
         <name>AboutDialog</name>
         <message>
             <location filename="../about_dialog.ui" line="16"/>
             <source>About shadPS4</source>
-            <translation>关于 shadPS4</translation>
+            <translation>Rreth shadPS4</translation>
         </message>
         <message>
             <location filename="../about_dialog.ui" line="60"/>
@@ -16,12 +16,12 @@
         <message>
             <location filename="../about_dialog.ui" line="78"/>
             <source>shadPS4 is an experimental open-source emulator for the PlayStation 4.</source>
-            <translation>shadPS4 是一款实验性质的开源 PlayStation 4模拟器软件。</translation>
+            <translation>shadPS4 është një emulator eksperimental me burim të hapur për PlayStation 4.</translation>
         </message>
         <message>
             <location filename="../about_dialog.ui" line="99"/>
             <source>This software should not be used to play games you have not legally obtained.</source>
-            <translation>本软件不得用于运行未经合法授权而获得的游戏。</translation>
+            <translation>Ky program nuk duhet përdorur për të luajtur lojëra që nuk ke marrë ligjërisht.</translation>
         </message>
     </context>
     <context>
@@ -29,7 +29,7 @@
         <message>
             <location filename="../elf_viewer.cpp" line="45"/>
             <source>Open Folder</source>
-            <translation>打开文件夹</translation>
+            <translation>Hap Dosjen</translation>
         </message>
     </context>
     <context>
@@ -37,17 +37,17 @@
         <message>
             <location filename="../game_info.cpp" line="26"/>
             <source>Loading game list, please wait :3</source>
-            <translation>加载游戏列表中, 请稍等 :3</translation>
+            <translation>Duke ngarkuar listën e lojërave, të lutem prit :3</translation>
         </message>
         <message>
             <location filename="../game_info.cpp" line="26"/>
             <source>Cancel</source>
-            <translation>取消</translation>
+            <translation>Anulo</translation>
         </message>
         <message>
             <location filename="../game_info.cpp" line="27"/>
             <source>Loading...</source>
-            <translation>加载中...</translation>
+            <translation>Duke ngarkuar...</translation>
         </message>
     </context>
     <context>
@@ -55,27 +55,27 @@
         <message>
             <location filename="../game_install_dialog.cpp" line="24"/>
             <source>shadPS4 - Choose directory</source>
-            <translation>shadPS4 - 选择文件目录</translation>
+            <translation>shadPS4 - Përzgjidh dosjen</translation>
         </message>
         <message>
             <location filename="../game_install_dialog.cpp" line="31"/>
             <source>Directory to install games</source>
-            <translation>要安装游戏的目录</translation>
+            <translation>Dosja ku do instalohen lojërat</translation>
         </message>
         <message>
             <location filename="../game_install_dialog.cpp" line="50"/>
             <source>Browse</source>
-            <translation>浏览</translation>
+            <translation>Shfleto</translation>
         </message>
         <message>
             <location filename="../game_install_dialog.cpp" line="74"/>
             <source>Error</source>
-            <translation>错误</translation>
+            <translation>Gabim</translation>
         </message>
         <message>
             <location filename="../game_install_dialog.cpp" line="75"/>
             <source>The value for location to install games is not valid.</source>
-            <translation>游戏安装位置无效。</translation>
+            <translation>Vlera për vendndodhjen e instalimit të lojërave nuk është e vlefshme.</translation>
         </message>
     </context>
     <context>
@@ -83,72 +83,72 @@
         <message>
             <location filename="../gui_context_menus.h" line="46"/>
             <source>Create Shortcut</source>
-            <translation>创建快捷方式</translation>
+            <translation>Krijo Shkurtore</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="47"/>
             <source>Open Game Folder</source>
-            <translation>打开游戏文件夹</translation>
+            <translation>Hap Dosjen e Lojës</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="48"/>
             <source>Cheats / Patches</source>
-            <translation>作弊码 / 补丁</translation>
+            <translation>Mashtrime / Arna</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="49"/>
             <source>SFO Viewer</source>
-            <translation>SFO 查看器</translation>
+            <translation>Shikuesi i SFO</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="50"/>
             <source>Trophy Viewer</source>
-            <translation>Trophy 查看器</translation>
+            <translation>Shikuesi i Trofeve</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="59"/>
             <source>Copy info</source>
-            <translation>复制信息</translation>
+            <translation>Kopjo informacionin</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="60"/>
             <source>Copy Name</source>
-            <translation>复制名称</translation>
+            <translation>Kopjo Emrin</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="61"/>
             <source>Copy Serial</source>
-            <translation>复制序列号</translation>
+            <translation>Kopjo Serikun</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="62"/>
             <source>Copy All</source>
-            <translation>复制全部</translation>
+            <translation>Kopjo të Gjitha</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="195"/>
             <source>Shortcut creation</source>
-            <translation>创建快捷方式</translation>
+            <translation>Krijim i shkurtores</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="196"/>
             <source>Shortcut created successfully!\n %1</source>
-            <translation>创建快捷方式成功!\n %1</translation>
+            <translation>Shkurtorja u krijua me sukses!\n %1</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="199"/>
             <source>Error</source>
-            <translation>错误</translation>
+            <translation>Gabim</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="200"/>
             <source>Error creating shortcut!\n %1</source>
-            <translation>创建快捷方式出错!\n %1</translation>
+            <translation>Gabim në krijimin e shkurtores!\n %1</translation>
         </message>
         <message>
             <location filename="../gui_context_menus.h" line="275"/>
             <source>Install PKG</source>
-            <translation>安装 PKG</translation>
+            <translation>Instalo PKG</translation>
         </message>
     </context>
     <context>
@@ -156,192 +156,192 @@
         <message>
             <location filename="../main_window_ui.h" line="310"/>
             <source>Open/Add Elf Folder</source>
-            <translation>打开/添加Elf文件夹</translation>
+            <translation>Hap/Shto Dosje ELF</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="312"/>
             <source>Install Packages (PKG)</source>
-            <translation>安装 Packages (PKG)</translation>
+            <translation>Instalo Paketat (PKG)</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="313"/>
             <source>Boot Game</source>
-            <translation>启动游戏</translation>
+            <translation>Nis Lojën</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="314"/>
             <source>About shadPS4</source>
-            <translation>关于 shadPS4</translation>
+            <translation>Rreth shadPS4</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="315"/>
             <source>Configure...</source>
-            <translation>设置...</translation>
+            <translation>Formëso...</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="318"/>
             <source>Install application from a .pkg file</source>
-            <translation>从 .pkg 文件安装应用程序</translation>
+            <translation>Instalo aplikacionin nga skedari .pkg</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="320"/>
             <source>Recent Games</source>
-            <translation>最近启动的游戏</translation>
+            <translation>Lojërat e fundit</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="321"/>
             <source>Exit</source>
-            <translation>退出</translation>
+            <translation>Dil</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="323"/>
             <source>Exit shadPS4</source>
-            <translation>退出 shadPS4</translation>
+            <translation>Dil nga shadPS4</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="327"/>
             <source>Exit the application.</source>
-            <translation>退出应用程序.</translation>
+            <translation>Dil nga aplikacioni.</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="330"/>
             <source>Show Game List</source>
-            <translation>显示游戏列表</translation>
+            <translation>Shfaq Listën e Lojërave</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="332"/>
             <source>Game List Refresh</source>
-            <translation>刷新游戏列表</translation>
+            <translation>Rifresko Listën e Lojërave</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="333"/>
             <source>Tiny</source>
-            <translation>微小</translation>
+            <translation>Të vockla</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="334"/>
             <source>Small</source>
-            <translation>小</translation>
+            <translation>Të vogla</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="335"/>
             <source>Medium</source>
-            <translation>中等</translation>
+            <translation>Të mesme</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="336"/>
             <source>Large</source>
-            <translation>巨大</translation>
+            <translation>Të mëdha</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="338"/>
             <source>List View</source>
-            <translation>列表视图</translation>
+            <translation>Pamja e Listës</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="340"/>
             <source>Grid View</source>
-            <translation>表格视图</translation>
+            <translation>Pamja e Rrjetës</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="341"/>
             <source>Elf Viewer</source>
-            <translation>Elf 查看器</translation>
+            <translation>Shikuesi i Elf</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="343"/>
             <source>Game Install Directory</source>
-            <translation>游戏安装目录</translation>
+            <translation>Dosja e Instalimit të Lojës</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="343"/>
             <source>Download Cheats/Patches</source>
-            <translation>下载作弊码/补丁</translation>
+            <translation>Shkarko Mashtrimet / Arnat</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="345"/>
             <source>Dump Game List</source>
-            <translation>转储游戏列表</translation>
+            <translation>Zbraz Listën e lojërave</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="346"/>
             <source>PKG Viewer</source>
-            <translation>PKG 查看器</translation>
+            <translation>Shikuesi i PKG</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="348"/>
             <source>Search...</source>
-            <translation>搜索...</translation>
+            <translation>Kërko...</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="349"/>
             <source>File</source>
-            <translation>文件</translation>
+            <translation>Skedar</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="350"/>
             <source>View</source>
-            <translation>显示</translation>
+            <translation>Pamje</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="352"/>
             <source>Game List Icons</source>
-            <translation>游戏列表图标</translation>
+            <translation>Ikonat e Listës së Lojërave</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="354"/>
             <source>Game List Mode</source>
-            <translation>游戏列表模式</translation>
+            <translation>Mënyra e Listës së Lojërave</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="355"/>
             <source>Settings</source>
-            <translation>设置</translation>
+            <translation>Cilësimet</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="356"/>
             <source>Utils</source>
-            <translation>工具</translation>
+            <translation>Shërbime</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="357"/>
             <source>Themes</source>
-            <translation>主题</translation>
+            <translation>Motivet</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="358"/>
             <source>About</source>
-            <translation>关于</translation>
+            <translation>Rreth</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="359"/>
             <source>Dark</source>
-            <translation>Dark</translation>
+            <translation>E errët</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="360"/>
             <source>Light</source>
-            <translation>Light</translation>
+            <translation>E çelët</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="361"/>
             <source>Green</source>
-            <translation>Green</translation>
+            <translation>E gjelbër</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="362"/>
             <source>Blue</source>
-            <translation>Blue</translation>
+            <translation>E kaltër</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="363"/>
             <source>Violet</source>
-            <translation>Violet</translation>
+            <translation>Vjollcë</translation>
         </message>
         <message>
             <location filename="../main_window_ui.h" line="364"/>
             <source>toolBar</source>
-            <translation>工具栏</translation>
+            <translation>Shiriti i veglave</translation>
         </message>
     </context>
     <context>
@@ -349,7 +349,7 @@
         <message>
             <location filename="../pkg_viewer.cpp" line="32"/>
             <source>Open Folder</source>
-            <translation>打开文件夹</translation>
+            <translation>Hap Dosjen</translation>
         </message>
     </context>
     <context>
@@ -357,7 +357,7 @@
         <message>
             <location filename="../trophy_viewer.cpp" line="8"/>
             <source>Trophy Viewer</source>
-            <translation>Trophy 查看器</translation>
+            <translation>Shikuesi i Trofeve</translation>
         </message>
     </context>
     <context>
@@ -365,538 +365,538 @@
         <message>
             <location filename="../settings_dialog.ui" line="29"/>
             <source>Settings</source>
-            <translation>设置</translation>
+            <translation>Cilësimet</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="67"/>
             <source>General</source>
-            <translation>通用</translation>
+            <translation>Të përgjithshme</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="77"/>
             <source>System</source>
-            <translation>系统</translation>
+            <translation>Sistemi</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="83"/>
             <source>Console Language</source>
-            <translation>主机语言</translation>
+            <translation>Gjuha e Konsolës</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="95"/>
             <source>Emulator Language</source>
-            <translation>模拟器语言</translation>
+            <translation>Gjuha e emulatorit</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="114"/>
             <source>Emulator</source>
-            <translation>模拟器</translation>
+            <translation>Emulatori</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="122"/>
             <source>Enable Fullscreen</source>
-            <translation>启用全屏</translation>
+            <translation>Aktivizo Ekranin e plotë</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="129"/>
             <source>Show Splash</source>
-            <translation>显示Splash</translation>
+            <translation>Shfaq Pamjen e nisjes</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="136"/>
             <source>Is PS4 Pro</source>
-            <translation>是否是 PS4 Pro</translation>
+            <translation>Mënyra PS4 Pro</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="155"/>
             <source>Username</source>
-            <translation>用户名</translation>
+            <translation>Nofka</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="178"/>
             <source>Logger</source>
-            <translation>日志</translation>
+            <translation>Regjistruesi i të dhënave</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="199"/>
             <source>Log Type</source>
-            <translation>日志类型</translation>
+            <translation>Lloji i Ditarit</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="235"/>
             <source>Log Filter</source>
-            <translation>日志过滤</translation>
+            <translation>Filtri i Ditarit</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="272"/>
             <source>Graphics</source>
-            <translation>图像</translation>
+            <translation>Grafika</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="282"/>
             <source>Graphics Device</source>
-            <translation>图像设备</translation>
+            <translation>Pajisja e Grafikës</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="326"/>
             <source>Width</source>
-            <translation>宽带</translation>
+            <translation>Gjerësia</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="357"/>
             <source>Height</source>
-            <translation>高度</translation>
+            <translation>Lartësia</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="405"/>
             <source>Vblank Divider</source>
-            <translation>Vblank Divider</translation>
+            <translation>Ndarës Vblank</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="453"/>
             <source>Advanced</source>
-            <translation>高级</translation>
+            <translation>Të përparuara</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="462"/>
             <source>Enable Shaders Dumping</source>
-            <translation>启用着色器转储</translation>
+            <translation>Aktivizo Zbrazjen e Shaders-ave</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="469"/>
             <source>Enable NULL GPU</source>
-            <translation>启用 NULL GPU</translation>
+            <translation>Aktivizo GPU-në NULL</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="476"/>
             <source>Enable PM4 Dumping</source>
-            <translation>启用 PM4 转储</translation>
+            <translation>Aktivizo Zbrazjen PM4</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="517"/>
             <source>Debug</source>
-            <translation>调试</translation>
+            <translation>Korrigjim</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="537"/>
             <source>Enable Debug Dumping</source>
-            <translation>启用调试转储</translation>
+            <translation>Aktivizo Zbrazjen për Korrigjim</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="560"/>
             <source>Enable Vulkan Validation Layers</source>
-            <translation>启用 Vulkan 验证层</translation>
+            <translation>Aktivizo Shtresat e Vlefshmërisë Vulkan</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="567"/>
             <source>Enable Vulkan Synchronization Validation</source>
-            <translation>启用 Vulkan 同步验证</translation>
+            <translation>Aktivizo Vërtetimin e Sinkronizimit Vulkan</translation>
         </message>
         <message>
             <location filename="../settings_dialog.ui" line="574"/>
             <source>Enable RenderDoc Debugging</source>
-            <translation>启用 RenderDoc 调试</translation>
+            <translation>Aktivizo Korrigjimin RenderDoc</translation>
         </message>
     </context>
-    <context>
+	<context>
         <name>MainWindow</name>
         <message>
             <location filename="../main_window.cpp" line="168"/>
             <source> * Unsupported Vulkan Version</source>
-            <translation> * 不支持的 Vulkan 版本</translation>
+            <translation> * Version i pambështetur i Vulkan</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="326"/>
             <source>Download Cheats For All Installed Games</source>
-            <translation>下载所有已安装游戏的作弊码</translation>
+            <translation>Shkarko Mashtrime Për Të Gjitha Lojërat e Instaluara</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="328"/>
             <source>Download Patches For All Games</source>
-            <translation>下载所有游戏的补丁</translation>
+            <translation>Shkarko Arna Për Të Gjitha Lojërat e Instaluara</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="363"/>
             <source>Download Complete</source>
-            <translation>下载完成</translation>
+            <translation>Shkarkimi Përfundoi</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="364"/>
             <source>You have downloaded cheats for all the games you have installed.</source>
-            <translation>您已下载了所有已安装游戏的作弊码。</translation>
+            <translation>Ke shkarkuar mashtrimet për të gjitha lojërat që ke instaluar.</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="391"/>
             <source>Patches Downloaded Successfully!</source>
-            <translation>补丁下载成功！</translation>
+            <translation>Arnat u shkarkuan me sukses!</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="392"/>
             <source>All Patches available for all games have been downloaded.</source>
-            <translation>所有游戏的所有补丁都已下载。</translation>
+            <translation>Të gjitha arnat e ofruara për të gjitha lojërat janë shkarkuar.</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="549"/>
             <source>Games: </source>
-            <translation>游戏: </translation>
+            <translation>Lojërat: </translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="575"/>
             <source>PKG File (*.PKG)</source>
-            <translation>PKG 文件 (*.PKG)</translation>
+            <translation>Skedar PKG (*.PKG)</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="594"/>
             <source>ELF files (*.bin *.elf *.oelf)</source>
-            <translation>ELF 文件 (*.bin *.elf *.oelf)</translation>
+            <translation>Skedarë ELF (*.bin *.elf *.oelf)</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="600"/>
             <source>Game Boot</source>
-            <translation>游戏启动</translation>
+            <translation>Nis Lojën</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="600"/>
             <source>Only one file can be selected!</source>
-            <translation>只能选择一个文件！</translation>
+            <translation>Mund të përzgjidhet vetëm një skedar!</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="623"/>
             <source>PKG Extraction</source>
-            <translation>PKG 解压</translation>
+            <translation>Nxjerrja e PKG-së</translation>
         </message>
         <message>
-        	<location filename="../main_window.cpp" line="646"/>
-        	<source>Patch detected!</source>
-        	<translation>检测到补丁！</translation>
+            <location filename="../main_window.cpp" line="646"/>
+            <source>Patch detected!</source>
+            <translation>U zbulua një arnë!</translation>
         </message>
         <message>
         	<location filename="../main_window.cpp" line="646"/>
         	<source>PKG and Game versions match: </source>
-        	<translation>PKG 和游戏版本匹配: </translation>
+        	<translation>PKG-ja dhe versioni i Lojës përputhen: </translation>
         </message>
         <message>
-        	<location filename="../main_window.cpp" line="647"/>
-        	<source>Would you like to overwrite?</source>
-        	<translation>您想要覆盖吗？</translation>
+            <location filename="../main_window.cpp" line="647"/>
+            <source>Would you like to overwrite?</source>
+            <translation>Dëshiron të mbishkruash?</translation>
         </message>
         <message>
-        	<location filename="../main_window.cpp" line="639"/>
-        	<source>PKG Version %1 is older than installed version: </source>
-        	<translation>PKG 版本 %1 比已安装版本更旧: </translation>
+            <location filename="../main_window.cpp" line="639"/>
+            <source>PKG Version %1 is older than installed version: </source>
+            <translation>Versioni %1 i PKG-së është më i vjetër se versioni i instaluar: </translation>
         </message>
         <message>
         	<location filename="../main_window.cpp" line="660"/>
         	<source>Game is installed: </source>
-        	<translation>游戏已安装: </translation>
+        	<translation>Loja është instaluar: </translation>
         </message>
         <message>
         	<location filename="../main_window.cpp" line="660"/>
         	<source>Would you like to install Patch: </source>
-        	<translation>您想安装补丁吗: </translation>
+        	<translation>Dëshiron të instalosh Arnën: </translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="673"/>
             <source>DLC Installation</source>
-            <translation>DLC 安装</translation>
+            <translation>Instalimi i DLC-ve</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="674"/>
             <source>Would you like to install DLC: %1?</source>
-            <translation>您想安装 DLC: %1 吗？</translation>
+            <translation>Dëshiron të instalosh DLC-në: %1?</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="688"/>
             <source>DLC already installed:</source>
-            <translation>DLC 已经安装:</translation>
+            <translation>DLC-ja është instaluar tashmë:</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="701"/>
             <source>Game already installed</source>
-            <translation>游戏已经安装</translation>
+            <translation>Loja është instaluar tashmë</translation>
         </message>
         <message>
-            <location filename="../main_window.cpp" line="674"/>
-            <source>PKG is a patch, please install the game first!</source>
-            <translation>PKG 是一个补丁，请先安装游戏！</translation>
+        	<location filename="../main_window.cpp" line="674"/>
+        	<source>PKG is a patch, please install the game first!</source>
+        	<translation>PKG-ja është një arnë, të lutem instalo lojën fillimisht!</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="681"/>
             <source>PKG ERROR</source>
-            <translation>PKG 错误</translation>
+            <translation>GABIM PKG</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="693"/>
             <source>Extracting PKG %1/%2</source>
-            <translation>正在解压 PKG %1/%2</translation>
+            <translation>Po nxirret PKG-ja %1/%2</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="703"/>
             <source>Extraction Finished</source>
-            <translation>解压完成</translation>
+            <translation>Nxjerrja Përfundoi</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="704"/>
             <source>Game successfully installed at %1</source>
-            <translation>游戏成功安装在 %1</translation>
+            <translation>Loja u instalua me sukses në %1</translation>
         </message>
         <message>
             <location filename="../main_window.cpp" line="725"/>
-            <source>File doesn't appear to be a valid PKG file</source>
-            <translation>文件似乎不是有效的 PKG 文件</translation>
+            <source>File doesn&apos;t appear to be a valid PKG file</source>
+            <translation>Skedari nuk duket si skedar PKG i vlefshëm</translation>
         </message>
-    </context>
-    <context>
+	</context>
+	<context>
         <name>CheatsPatches</name>
         <message>
             <location filename="../cheats_patches.cpp" line="44"/>
             <source>Cheats / Patches</source>
-            <translation>作弊码 / 补丁</translation>
+            <translation>Mashtrime / Arna</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="50"/>
             <source>defaultTextEdit_MSG</source>
-            <translation>作弊/补丁是实验性的。\n请小心使用。\n\n通过选择存储库并点击下载按钮，单独下载作弊程序。\n在“补丁”选项卡中，您可以一次性下载所有补丁，选择要使用的补丁并保存选择。\n\n由于我们不开发作弊程序/补丁，\n请将问题报告给作弊程序的作者。\n\n创建了新的作弊程序？访问：\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
+            <translation>Mashtrimet/Arnat janë eksperimentale.\nPërdori me kujdes.\n\nShkarko mashtrimet individualisht duke zgjedhur depon dhe duke klikuar butonin e shkarkimit.\nNë skedën Arna, mund t&apos;i shkarkosh të gjitha arnat menjëherë, të zgjidhësh cilat dëshiron të përdorësh dhe të ruash zgjedhjen tënde.\n\nMeqenëse ne nuk zhvillojmë Mashtrimet/Arnat,\ntë lutem raporto problemet te autori i mashtrimit.\n\nKe krijuar një mashtrim të ri? Vizito:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="69"/>
             <source>No Image Available</source>
-            <translation>没有可用的图像</translation>
+            <translation>Nuk ofrohet asnjë imazh</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="79"/>
             <source>Serial: </source>
-            <translation>序列号: </translation>
+            <translation>Seriku: </translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="83"/>
             <source>Version: </source>
-            <translation>版本: </translation>
+            <translation>Versioni: </translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="87"/>
             <source>Size: </source>
-            <translation>大小: </translation>
+            <translation>Madhësia: </translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="126"/>
             <source>Select Cheat File:</source>
-            <translation>选择作弊码文件:</translation>
+            <translation>Përzgjidh Skedarin e Mashtrimit:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="133"/>
             <source>Repository:</source>
-            <translation>存储库:</translation>
+            <translation>Depo:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="149"/>
             <source>Download Cheats</source>
-            <translation>下载作弊码</translation>
+            <translation>Shkarko Mashtrimet</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="155"/>
             <source>Delete File</source>
-            <translation>删除文件</translation>
+            <translation>Fshi Skedarin</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="169"/>
             <source>No files selected.</source>
-            <translation>没有选择文件。</translation>
+            <translation>Nuk u zgjodh asnjë skedar.</translation>
         </message>
         <message>
-            <location filename="../cheats_patches.cpp" line="170"/>
-            <source>You can delete the cheats you don't want after downloading them.</source>
-            <translation>您可以在下载后删除不想要的作弊码。</translation>
+        	<location filename="../cheats_patches.cpp" line="170"/>
+        	<source>You can delete the cheats you don't want after downloading them.</source>
+        	<translation>Mund t'i fshish mashtrimet që nuk dëshiron pasi t'i kesh shkarkuar.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="178"/>
             <source>Do you want to delete the selected file?\n%1</source>
-            <translation>您要删除选中的文件吗？\n%1</translation>
+            <translation>Dëshiron të fshish skedarin e përzgjedhur?\n%1</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="213"/>
             <source>Select Patch File:</source>
-            <translation>选择补丁文件:</translation>
+            <translation>Përzgjidh Skedarin e Arnës:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="241"/>
             <source>Download Patches</source>
-            <translation>下载补丁</translation>
+            <translation>Shkarko Arnat</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="248"/>
             <source>Save</source>
-            <translation>保存</translation>
+            <translation>Ruaj</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="256"/>
             <source>Cheats</source>
-            <translation>作弊码</translation>
+            <translation>Mashtrime</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="257"/>
             <source>Patches</source>
-            <translation>补丁</translation>
+            <translation>Arna</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="278"/>
             <source>Error</source>
-            <translation>错误</translation>
+            <translation>Gabim</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="278"/>
             <source>No patch selected.</source>
-            <translation>没有选择补丁。</translation>
+            <translation>Asnjë arnë e përzgjedhur.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="292"/>
             <source>Unable to open files.json for reading.</source>
-            <translation>无法打开 files.json 进行读取。</translation>
+            <translation>files.json nuk mund të hapet për lexim.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="316"/>
             <source>No patch file found for the current serial.</source>
-            <translation>未找到当前序列号的补丁文件。</translation>
+            <translation>Nuk u gjet asnjë skedar patch për serikun aktual.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="323"/>
             <source>Unable to open the file for reading.</source>
-            <translation>无法打开文件进行读取。</translation>
+            <translation>Skedari nuk mund të hapet për lexim.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="422"/>
             <source>Unable to open the file for writing.</source>
-            <translation>无法打开文件进行写入。</translation>
+            <translation>Skedari nuk mund të hapet për shkrim.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="432"/>
             <source>Failed to parse XML: </source>
-            <translation>解析 XML 失败: </translation>
+            <translation>Analiza e XML-së dështoi: </translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="434"/>
             <source>Success</source>
-            <translation>成功</translation>
+            <translation>Sukses</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="434"/>
             <source>Options saved successfully.</source>
-            <translation>选项已成功保存。</translation>
+            <translation>Rregullimet u ruajtën me sukses.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="470"/>
             <source>Invalid Source</source>
-            <translation>无效的来源</translation>
+            <translation>Burim i pavlefshëm</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="471"/>
             <source>The selected source is invalid.</source>
-            <translation>选择的来源无效。</translation>
+            <translation>Burimi i përzgjedhur është i pavlefshëm.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="519"/>
             <source>File Exists</source>
-            <translation>文件已存在</translation>
+            <translation>Skedari Ekziston</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="520"/>
             <source>File already exists. Do you want to replace it?</source>
-            <translation>文件已存在。您要替换它吗？</translation>
+            <translation>Skedari ekziston tashmë. Dëshiron ta zëvendësosh?</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="539"/>
             <source>Failed to save file:</source>
-            <translation>保存文件失败:</translation>
+            <translation>Ruajtja e skedarit dështoi:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="545"/>
             <source>Failed to download file:</source>
-            <translation>下载文件失败:</translation>
+            <translation>Shkarkimi i skedarit dështoi:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="556"/>
             <source>Cheats Not Found</source>
-            <translation>未找到作弊码</translation>
+            <translation>Mashtrimet nuk u gjetën</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="556"/>
             <source>CheatsNotFound_MSG</source>
-            <translation>在所选存储库的版本中找不到该游戏的作弊码，请尝试其他存储库或游戏版本。</translation>
+            <translation>Nuk u gjetën mashtrime për këtë lojë në këtë version të depove të përzgjedhura, provo një depo tjetër ose një version tjetër të lojës.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="593"/>
             <source>Cheats Downloaded Successfully</source>
-            <translation>作弊码下载成功</translation>
+            <translation>Mashtrimet u shkarkuan me sukses</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="594"/>
             <source>CheatsDownloadedSuccessfully_MSG</source>
-            <translation>您已成功下载了该游戏版本的作弊码 从所选存储库中。如果有，您还可以尝试从其他存储库下载，或通过从列表中选择文件来使用它们。</translation>
+            <translation>Ke shkarkuar me sukses mashtrimet për këtë version të lojës nga depoja e përzgjedhur. Mund të provosh të shkarkosh nga një depo tjetër, nëse ofrohet do të jetë e mundur gjithashtu ta përdorësh duke përzgjedhur skedarin nga lista.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="747"/>
             <source>Failed to save:</source>
-            <translation>保存失败:</translation>
+            <translation>Ruajtja dështoi:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="754"/>
             <source>Failed to download:</source>
-            <translation>下载失败:</translation>
+            <translation>Shkarkimi dështoi:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="762"/>
             <source>Download Complete</source>
-            <translation>下载完成</translation>
+            <translation>Shkarkimi përfundoi</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="763"/>
             <source>DownloadComplete_MSG</source>
-            <translation>补丁下载成功！所有可用的补丁已下载完成，无需像作弊码那样单独下载每个游戏的补丁。</translation>
+            <translation>Arnat u shkarkuan me sukses! Të gjitha arnat e ofruara për të gjitha lojërat janë shkarkuar, nuk ka nevojë t&apos;i shkarkosh ato individualisht për secilën lojë siç ndodh me Mashtrimet.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="773"/>
             <source>Failed to parse JSON data from HTML.</source>
-            <translation>无法解析 HTML 中的 JSON 数据。</translation>
+            <translation>Analiza e të dhënave JSON nga HTML dështoi.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="778"/>
             <source>Failed to retrieve HTML page.</source>
-            <translation>无法获取 HTML 页面。</translation>
+            <translation>Gjetja e faqes HTML dështoi.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="801"/>
             <source>Failed to open file:</source>
-            <translation>无法打开文件:</translation>
+            <translation>Hapja e skedarit dështoi:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="819"/>
             <source>XML ERROR:</source>
-            <translation>XML 错误:</translation>
+            <translation>GABIM XML:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="826"/>
             <source>Failed to open files.json for writing</source>
-            <translation>无法打开 files.json 进行写入</translation>
+            <translation>Hapja e files.json për shkrim dështoi</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="925"/>
             <source>Author: </source>
-            <translation>作者: </translation>
+            <translation>Autori: </translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="997"/>
             <source>Directory does not exist:</source>
-            <translation>目录不存在:</translation>
+            <translation>Dosja nuk ekziston:</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="1006"/>
             <source>Failed to open files.json for reading.</source>
-            <translation>无法打开 files.json 进行读取。</translation>
+            <translation>Hapja e files.json për lexim dështoi.</translation>
         </message>
         <message>
             <location filename="../cheats_patches.cpp" line="1006"/>
             <source>Name:</source>
-            <translation>名称:</translation>
+            <translation>Emri:</translation>
         </message>
-    </context>	
+	</context>	
 </TS>
